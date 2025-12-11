@@ -56,7 +56,7 @@ Socket programming finds applications in various domains, including web developm
 ## Program:
 
 ## CLIENT:
-```
+```python
 import socket
 from datetime import datetime
 
@@ -79,7 +79,7 @@ c.close()
 
 ## SERVER:
 
-```
+```python
 import socket
 
 s = socket.socket()
